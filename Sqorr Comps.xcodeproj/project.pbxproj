@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1D0F0022C3751200A0A559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0EFF22C3751200A0A559 /* AppDelegate.swift */; };
+		8E1D0F0222C3751200A0A559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0F0122C3751200A0A559 /* ViewController.swift */; };
+		8E1D0F0522C3751200A0A559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D0F0322C3751200A0A559 /* Main.storyboard */; };
+		8E1D0F0722C3752100A0A559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D0F0622C3752100A0A559 /* Assets.xcassets */; };
+		8E1D0F0A22C3752100A0A559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D0F0822C3752100A0A559 /* LaunchScreen.storyboard */; };
+		8E1D0F1522C3752100A0A559 /* Sqorr_CompsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0F1422C3752100A0A559 /* Sqorr_CompsTests.swift */; };
+		8E1D0F2022C3752100A0A559 /* Sqorr_CompsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0F1F22C3752100A0A559 /* Sqorr_CompsUITests.swift */; };
+		8E1D0F3222C3766D00A0A559 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0F3122C3766D00A0A559 /* HomeViewController.swift */; };
+		8E1D0F3422C3767B00A0A559 /* MyCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0F3322C3767B00A0A559 /* MyCardsViewController.swift */; };
+		8E1D0F3622C376A000A0A559 /* SqorrTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0F3522C376A000A0A559 /* SqorrTVViewController.swift */; };
+		8E1D0F3822C376AE00A0A559 /* PromosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0F3722C376AE00A0A559 /* PromosViewController.swift */; };
+		8E1D0F4222C37EB600A0A559 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D0F4022C37EB600A0A559 /* CardTableViewCell.swift */; };
+		8E1D0F4322C37EB600A0A559 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D0F4122C37EB600A0A559 /* CardTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E1D0F1122C3752100A0A559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1D0EF422C3751200A0A559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1D0EFB22C3751200A0A559;
+			remoteInfo = "Sqorr Comps";
+		};
+		8E1D0F1C22C3752100A0A559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1D0EF422C3751200A0A559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1D0EFB22C3751200A0A559;
+			remoteInfo = "Sqorr Comps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E1D0EFC22C3751200A0A559 /* Sqorr Comps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sqorr Comps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D0EFF22C3751200A0A559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E1D0F0122C3751200A0A559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E1D0F0422C3751200A0A559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1D0F0622C3752100A0A559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1D0F0922C3752100A0A559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1D0F0B22C3752100A0A559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1D0F1022C3752100A0A559 /* Sqorr CompsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sqorr CompsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D0F1422C3752100A0A559 /* Sqorr_CompsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqorr_CompsTests.swift; sourceTree = "<group>"; };
+		8E1D0F1622C3752100A0A559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1D0F1B22C3752100A0A559 /* Sqorr CompsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sqorr CompsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D0F1F22C3752100A0A559 /* Sqorr_CompsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqorr_CompsUITests.swift; sourceTree = "<group>"; };
+		8E1D0F2122C3752100A0A559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1D0F3122C3766D00A0A559 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8E1D0F3322C3767B00A0A559 /* MyCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsViewController.swift; sourceTree = "<group>"; };
+		8E1D0F3522C376A000A0A559 /* SqorrTVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqorrTVViewController.swift; sourceTree = "<group>"; };
+		8E1D0F3722C376AE00A0A559 /* PromosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromosViewController.swift; sourceTree = "<group>"; };
+		8E1D0F4022C37EB600A0A559 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		8E1D0F4122C37EB600A0A559 /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1D0EF922C3751200A0A559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D0F0D22C3752100A0A559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D0F1822C3752100A0A559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1D0EF322C3751200A0A559 = {
+			isa = PBXGroup;
+			children = (
+				8E1D0EFE22C3751200A0A559 /* Sqorr Comps */,
+				8E1D0F1322C3752100A0A559 /* Sqorr CompsTests */,
+				8E1D0F1E22C3752100A0A559 /* Sqorr CompsUITests */,
+				8E1D0EFD22C3751200A0A559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1D0EFD22C3751200A0A559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D0EFC22C3751200A0A559 /* Sqorr Comps.app */,
+				8E1D0F1022C3752100A0A559 /* Sqorr CompsTests.xctest */,
+				8E1D0F1B22C3752100A0A559 /* Sqorr CompsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1D0EFE22C3751200A0A559 /* Sqorr Comps */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D0F3D22C377AB00A0A559 /* Extensions */,
+				8E1D0F3A22C376D500A0A559 /* Constants */,
+				8E1D0F3922C376C400A0A559 /* ThirdPartyAPIs */,
+				8E1D0F3022C3763700A0A559 /* CustomCells */,
+				8E1D0F2F22C3761A00A0A559 /* Views */,
+				8E1D0F2E22C375F300A0A559 /* Models */,
+				8E1D0F2D22C375EF00A0A559 /* Controllers */,
+				8E1D0F0622C3752100A0A559 /* Assets.xcassets */,
+				8E1D0F0B22C3752100A0A559 /* Info.plist */,
+			);
+			path = "Sqorr Comps";
+			sourceTree = "<group>";
+		};
+		8E1D0F1322C3752100A0A559 /* Sqorr CompsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D0F1422C3752100A0A559 /* Sqorr_CompsTests.swift */,
+				8E1D0F1622C3752100A0A559 /* Info.plist */,
+			);
+			path = "Sqorr CompsTests";
+			sourceTree = "<group>";
+		};
+		8E1D0F1E22C3752100A0A559 /* Sqorr CompsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D0F1F22C3752100A0A559 /* Sqorr_CompsUITests.swift */,
+				8E1D0F2122C3752100A0A559 /* Info.plist */,
+			);
+			path = "Sqorr CompsUITests";
+			sourceTree = "<group>";
+		};
+		8E1D0F2D22C375EF00A0A559 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D0EFF22C3751200A0A559 /* AppDelegate.swift */,
+				8E1D0F0122C3751200A0A559 /* ViewController.swift */,
+				8E1D0F3122C3766D00A0A559 /* HomeViewController.swift */,
+				8E1D0F3322C3767B00A0A559 /* MyCardsViewController.swift */,
+				8E1D0F3522C376A000A0A559 /* SqorrTVViewController.swift */,
+				8E1D0F3722C376AE00A0A559 /* PromosViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8E1D0F2E22C375F300A0A559 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E1D0F2F22C3761A00A0A559 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D0F0822C3752100A0A559 /* LaunchScreen.storyboard */,
+				8E1D0F0322C3751200A0A559 /* Main.storyboard */,
+				8E1D0F4122C37EB600A0A559 /* CardTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E1D0F3022C3763700A0A559 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D0F4022C37EB600A0A559 /* CardTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		8E1D0F3922C376C400A0A559 /* ThirdPartyAPIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPartyAPIs;
+			sourceTree = "<group>";
+		};
+		8E1D0F3A22C376D500A0A559 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8E1D0F3D22C377AB00A0A559 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1D0EFB22C3751200A0A559 /* Sqorr Comps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1D0F2422C3752100A0A559 /* Build configuration list for PBXNativeTarget "Sqorr Comps" */;
+			buildPhases = (
+				8E1D0EF822C3751200A0A559 /* Sources */,
+				8E1D0EF922C3751200A0A559 /* Frameworks */,
+				8E1D0EFA22C3751200A0A559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sqorr Comps";
+			productName = "Sqorr Comps";
+			productReference = 8E1D0EFC22C3751200A0A559 /* Sqorr Comps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E1D0F0F22C3752100A0A559 /* Sqorr CompsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1D0F2722C3752100A0A559 /* Build configuration list for PBXNativeTarget "Sqorr CompsTests" */;
+			buildPhases = (
+				8E1D0F0C22C3752100A0A559 /* Sources */,
+				8E1D0F0D22C3752100A0A559 /* Frameworks */,
+				8E1D0F0E22C3752100A0A559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1D0F1222C3752100A0A559 /* PBXTargetDependency */,
+			);
+			name = "Sqorr CompsTests";
+			productName = "Sqorr CompsTests";
+			productReference = 8E1D0F1022C3752100A0A559 /* Sqorr CompsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E1D0F1A22C3752100A0A559 /* Sqorr CompsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1D0F2A22C3752100A0A559 /* Build configuration list for PBXNativeTarget "Sqorr CompsUITests" */;
+			buildPhases = (
+				8E1D0F1722C3752100A0A559 /* Sources */,
+				8E1D0F1822C3752100A0A559 /* Frameworks */,
+				8E1D0F1922C3752100A0A559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1D0F1D22C3752100A0A559 /* PBXTargetDependency */,
+			);
+			name = "Sqorr CompsUITests";
+			productName = "Sqorr CompsUITests";
+			productReference = 8E1D0F1B22C3752100A0A559 /* Sqorr CompsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1D0EF422C3751200A0A559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = PTG;
+				TargetAttributes = {
+					8E1D0EFB22C3751200A0A559 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8E1D0F0F22C3752100A0A559 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8E1D0EFB22C3751200A0A559;
+					};
+					8E1D0F1A22C3752100A0A559 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8E1D0EFB22C3751200A0A559;
+					};
+				};
+			};
+			buildConfigurationList = 8E1D0EF722C3751200A0A559 /* Build configuration list for PBXProject "Sqorr Comps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1D0EF322C3751200A0A559;
+			productRefGroup = 8E1D0EFD22C3751200A0A559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1D0EFB22C3751200A0A559 /* Sqorr Comps */,
+				8E1D0F0F22C3752100A0A559 /* Sqorr CompsTests */,
+				8E1D0F1A22C3752100A0A559 /* Sqorr CompsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1D0EFA22C3751200A0A559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D0F0A22C3752100A0A559 /* LaunchScreen.storyboard in Resources */,
+				8E1D0F0722C3752100A0A559 /* Assets.xcassets in Resources */,
+				8E1D0F0522C3751200A0A559 /* Main.storyboard in Resources */,
+				8E1D0F4322C37EB600A0A559 /* CardTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D0F0E22C3752100A0A559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D0F1922C3752100A0A559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1D0EF822C3751200A0A559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D0F3422C3767B00A0A559 /* MyCardsViewController.swift in Sources */,
+				8E1D0F0222C3751200A0A559 /* ViewController.swift in Sources */,
+				8E1D0F3822C376AE00A0A559 /* PromosViewController.swift in Sources */,
+				8E1D0F0022C3751200A0A559 /* AppDelegate.swift in Sources */,
+				8E1D0F3222C3766D00A0A559 /* HomeViewController.swift in Sources */,
+				8E1D0F3622C376A000A0A559 /* SqorrTVViewController.swift in Sources */,
+				8E1D0F4222C37EB600A0A559 /* CardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D0F0C22C3752100A0A559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D0F1522C3752100A0A559 /* Sqorr_CompsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D0F1722C3752100A0A559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D0F2022C3752100A0A559 /* Sqorr_CompsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1D0F1222C3752100A0A559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1D0EFB22C3751200A0A559 /* Sqorr Comps */;
+			targetProxy = 8E1D0F1122C3752100A0A559 /* PBXContainerItemProxy */;
+		};
+		8E1D0F1D22C3752100A0A559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1D0EFB22C3751200A0A559 /* Sqorr Comps */;
+			targetProxy = 8E1D0F1C22C3752100A0A559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E1D0F0322C3751200A0A559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1D0F0422C3751200A0A559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1D0F0822C3752100A0A559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1D0F0922C3752100A0A559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E1D0F2222C3752100A0A559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E1D0F2322C3752100A0A559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1D0F2522C3752100A0A559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sqorr Comps/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmp.Sqorr-Comps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E1D0F2622C3752100A0A559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sqorr Comps/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmp.Sqorr-Comps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E1D0F2822C3752100A0A559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sqorr CompsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmp.Sqorr-CompsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sqorr Comps.app/Sqorr Comps";
+			};
+			name = Debug;
+		};
+		8E1D0F2922C3752100A0A559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sqorr CompsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmp.Sqorr-CompsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sqorr Comps.app/Sqorr Comps";
+			};
+			name = Release;
+		};
+		8E1D0F2B22C3752100A0A559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sqorr CompsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmp.Sqorr-CompsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sqorr Comps";
+			};
+			name = Debug;
+		};
+		8E1D0F2C22C3752100A0A559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sqorr CompsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmp.Sqorr-CompsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sqorr Comps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1D0EF722C3751200A0A559 /* Build configuration list for PBXProject "Sqorr Comps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D0F2222C3752100A0A559 /* Debug */,
+				8E1D0F2322C3752100A0A559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1D0F2422C3752100A0A559 /* Build configuration list for PBXNativeTarget "Sqorr Comps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D0F2522C3752100A0A559 /* Debug */,
+				8E1D0F2622C3752100A0A559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1D0F2722C3752100A0A559 /* Build configuration list for PBXNativeTarget "Sqorr CompsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D0F2822C3752100A0A559 /* Debug */,
+				8E1D0F2922C3752100A0A559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1D0F2A22C3752100A0A559 /* Build configuration list for PBXNativeTarget "Sqorr CompsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D0F2B22C3752100A0A559 /* Debug */,
+				8E1D0F2C22C3752100A0A559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E1D0EF422C3751200A0A559 /* Project object */;
+}
